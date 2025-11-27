@@ -1,0 +1,19 @@
+version: '3'
+services:
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: dvwa
+    ports:
+      - "8000:80"
+    environment:
+      - PHP_ENABLE=1
+    volumes:
+      - dvwa_data:/app
+    restart: unless-stopped
+    networks:
+      - dvwa-network
+volumes:
+  dvwa_data:
+networks:
+  dvwa-network:
+    driver: bridge
