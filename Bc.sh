@@ -1,6 +1,6 @@
 #!/bin/bash
-DVWA_COMPOSE="/root/HunDun/dvwa.yaml"
-PIKACHU_COMPOSE="/root/HunDun/pikachu.yaml"
+DVWA_COMPOSE="/root/HunDunsec/dvwa.yaml"
+PIKACHU_COMPOSE="/root/HunDunsec/pikachu.yaml"
 get_ip_address() {
     if command -v python3 &> /dev/null; then
         python3 - << EOF
