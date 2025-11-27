@@ -7,4 +7,4 @@ mkdir /root/DVWA/dvwa.yaml
 mkdir /root/pikachu/pikachu.yaml
 chmod +x /root/bachang.sh
 ./bachang.sh
-<img width="281" height="362" alt="image" src="https://github.com/user-attachments/assets/e01bb3b3-3834-4057-8fe9-4a5c8c495252" />
+
