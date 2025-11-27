@@ -6,4 +6,6 @@ mkdir /root/DVWA/dvwa.yaml
 mkdir /root/pikachu/pikachu.yaml
 chmod +x /root/bachang.sh
 ./bachang.sh
-
+···灯塔的使用···
+chmod x arl.sh
+./arl.sh
