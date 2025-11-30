@@ -24,6 +24,7 @@ class DockerInstaller:
             return False
     def install_docker(self):
         self.run_command("apt update", shell=True)
+        self.run_command("apt-get update", shell=True)
         self.run_command("apt install -y docker.io", shell=True)
         self.run_command("apt install -y docker-compose", shell=True)
         self.run_command("systemctl start docker", shell=True)
@@ -46,4 +47,5 @@ def main():
     print("docker安装成功")
     print("docker-compose安装成功")
 if __name__ == "__main__":
+
     main()
