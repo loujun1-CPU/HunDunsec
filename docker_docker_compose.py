@@ -47,5 +47,4 @@ def main():
     print("docker安装成功")
     print("docker-compose安装成功")
 if __name__ == "__main__":
-
     main()
